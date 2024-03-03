@@ -1,0 +1,318 @@
+.eventsChild {
+  position: absolute;
+  top: 417px;
+  left: 28px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-cadetblue-200);
+  width: 336px;
+  height: 351px;
+}
+.homeIndicator {
+  position: absolute;
+  bottom: 8px;
+  left: calc(50% - 66px);
+  border-radius: var(--br-81xl);
+  background-color: var(--color-black);
+  width: 134px;
+  height: 5px;
+}
+.shoppingBagIcon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.shop {
+  position: relative;
+  line-height: 16px;
+  font-weight: 500;
+}
+.shoppingBagIconParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0;
+  gap: 4px 0;
+  color: var(--color-black);
+}
+.saved {
+  position: relative;
+  line-height: 16px;
+  font-weight: 500;
+  -webkit-text-stroke: 1px #000;
+}
+.frameParent,
+.saveIconParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.saveIconParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-5xs) 0;
+  gap: 4px 0;
+}
+.frameParent {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.mobileBottomNav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 390px;
+  height: 89px;
+  overflow: hidden;
+}
+.mobileBottomNavWrapper {
+  position: absolute;
+  top: 755px;
+  left: 1px;
+  width: 390px;
+  height: 89px;
+  text-align: center;
+  font-size: var(--font-size-2xs);
+  color: var(--color-gray-100);
+  font-family: var(--font-nunito);
+}
+.eventsInner,
+.eventsItem {
+  position: absolute;
+  top: 106px;
+  left: 26px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-cadetblue-200);
+  width: 338px;
+  height: 127px;
+}
+.eventsInner {
+  top: 260px;
+  left: 28px;
+}
+.trashureexchange,
+.trashurehunts {
+  position: absolute;
+  top: 149px;
+  left: 54px;
+  display: inline-block;
+  width: 282px;
+  height: 51px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.trashureexchange {
+  top: 306px;
+  width: 289px;
+  height: 61px;
+}
+.rectangleDiv {
+  position: absolute;
+  top: 39px;
+  left: 28px;
+  border-radius: var(--br-3xs);
+  background-color: #f8f8f8;
+  width: 326px;
+  height: 44px;
+}
+.upcomingEvents {
+  position: absolute;
+  top: 430px;
+  left: 38px;
+  font-size: 24px;
+  line-height: 16px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 245px;
+  height: 24px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.iconSearch {
+  position: absolute;
+  height: 3.55%;
+  width: 7.69%;
+  top: 5.57%;
+  right: 82.31%;
+  bottom: 90.88%;
+  left: 10%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.searchForTrashurehunts {
+  position: absolute;
+  top: 50px;
+  left: 86px;
+  font-size: 19px;
+  color: #a1a1a1;
+}
+.iconCalendar {
+  position: absolute;
+  height: 2.61%;
+  width: 5.56%;
+  top: 91%;
+  right: 47.26%;
+  bottom: 6.4%;
+  left: 47.18%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.fireIcon,
+.iconHome,
+.iconMap,
+.iconUser {
+  position: absolute;
+  top: 764px;
+  left: 261px;
+  width: 28px;
+  height: 26px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.iconHome,
+.iconMap,
+.iconUser {
+  height: 2.88%;
+  width: 5.82%;
+  top: 90.52%;
+  right: 7.26%;
+  bottom: 6.6%;
+  left: 86.92%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.iconHome,
+.iconMap {
+  height: 2.37%;
+  width: 6.15%;
+  top: 90.76%;
+  right: 86.67%;
+  bottom: 6.87%;
+  left: 7.18%;
+}
+.iconMap {
+  width: 6.67%;
+  right: 66.41%;
+  left: 26.92%;
+}
+.eventsChild1,
+.eventsChild2,
+.eventsChild3,
+.eventsChild4,
+.rectangleIcon {
+  position: absolute;
+  top: 466px;
+  left: 35px;
+  border-radius: var(--br-3xs);
+  width: 320px;
+  height: 62px;
+  cursor: pointer;
+}
+.eventsChild1,
+.eventsChild2,
+.eventsChild3,
+.eventsChild4 {
+  top: 534px;
+}
+.eventsChild2,
+.eventsChild3,
+.eventsChild4 {
+  top: 602px;
+}
+.eventsChild3,
+.eventsChild4 {
+  top: 670px;
+  height: 63px;
+}
+.eventsChild4 {
+  top: 740px;
+  height: 15px;
+}
+.corryLakeTrash {
+  text-decoration: underline;
+}
+.span {
+  font-size: var(--font-size-smi);
+}
+.container,
+.span {
+  white-space: pre-wrap;
+}
+.corryLakeTrashCleanUp {
+  margin: 0;
+}
+.span1 {
+  font-size: var(--font-size-base);
+  white-space: pre-wrap;
+}
+.cobwellLaneTimber {
+  font-size: var(--font-size-smi);
+}
+.corryLakeTrashContainer {
+  position: absolute;
+  top: 470px;
+  left: 54px;
+  display: inline-block;
+  width: 292px;
+  height: 54px;
+}
+.baldwinCreekTrashContainer,
+.hallyLakeTrashContainer,
+.tobaccoTrailTrashContainer {
+  position: absolute;
+  top: 538px;
+  left: 54px;
+  display: inline-block;
+  width: 292px;
+  height: 54px;
+}
+.baldwinCreekTrashContainer,
+.tobaccoTrailTrashContainer {
+  top: 606px;
+  left: 53px;
+}
+.tobaccoTrailTrashContainer {
+  top: 675px;
+  left: 50px;
+}
+.arrowIcon,
+.eventsChild5 {
+  position: absolute;
+  top: 442px;
+}
+.arrowIcon {
+  left: 274px;
+  border-radius: var(--br-8xs);
+  max-height: 100%;
+  width: 51px;
+}
+.eventsChild5 {
+  left: 325px;
+  background-color: var(--color-gainsboro-200);
+  width: 30px;
+  height: 28px;
+  cursor: pointer;
+}
+.events {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-darkseagreen-100);
+  height: 844px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

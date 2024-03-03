@@ -1,0 +1,14 @@
+.ifThePerson {
+  width: 273px;
+  position: relative;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  font-family: var(--font-nunito);
+  color: var(--color-black);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 42px;
+}

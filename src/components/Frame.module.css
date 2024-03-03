@@ -1,0 +1,81 @@
+.frameChild {
+  position: absolute;
+  top: 350px;
+  left: 138px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkseagreen-100);
+  filter: blur(4px);
+  border: 10px solid rgba(0, 0, 0, 0.7);
+  box-sizing: border-box;
+  width: 110px;
+  height: 111px;
+  opacity: 0.5;
+}
+.logoChild,
+.logoItem {
+  position: absolute;
+  top: 0.2px;
+  left: 0;
+  background-color: var(--color-darkslategray);
+  width: 57.6px;
+  height: 16px;
+}
+.logoItem {
+  top: 16.3px;
+  left: 19.5px;
+  background-color: var(--color-palegoldenrod);
+  width: 52.9px;
+  height: 19.2px;
+  transform: rotate(90.05deg);
+  transform-origin: 0 0;
+}
+.logoInner,
+.rectangleDiv {
+  position: absolute;
+  left: 38.2px;
+}
+.logoInner {
+  top: 16.2px;
+  width: 19.5px;
+  height: 53px;
+  object-fit: contain;
+}
+.rectangleDiv {
+  top: 0;
+  background-color: var(--color-darkslategray);
+  width: 48px;
+  height: 19.2px;
+  transform: rotate(89.62deg);
+  transform-origin: 0 0;
+}
+.logoChild1 {
+  position: absolute;
+  top: 38.7px;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-palegoldenrod);
+  width: 57.6px;
+  height: 16px;
+}
+.frameItem,
+.logo {
+  position: absolute;
+  top: 370.9px;
+  left: 163.9px;
+  width: 57.7px;
+  height: 69.2px;
+}
+.frameItem {
+  top: 343px;
+  left: 127px;
+  background-color: var(--color-gainsboro-200);
+  width: 131px;
+  height: 129px;
+  cursor: pointer;
+}
+.rectangleParent {
+  width: 392px;
+  background-color: #7092c6;
+  height: 810px;
+  overflow: hidden;
+}

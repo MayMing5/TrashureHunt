@@ -1,0 +1,358 @@
+.homeIndicator {
+  position: absolute;
+  bottom: 8px;
+  left: calc(50% - 66px);
+  border-radius: var(--br-81xl);
+  background-color: var(--color-black);
+  width: 134px;
+  height: 5px;
+}
+.shoppingBagIcon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.shop {
+  position: relative;
+  line-height: 16px;
+  font-weight: 500;
+}
+.shoppingBagIconParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-5xs) 0;
+  gap: 4px 0;
+  color: var(--color-black);
+}
+.frameParent,
+.saveIconParent,
+.shoppingBagIconParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.saveIconParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-5xs) 0;
+  gap: 4px 0;
+}
+.frameParent {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.mobileBottomNav,
+.mobileBottomNavWrapper {
+  position: absolute;
+  left: 0;
+  width: 390px;
+  height: 89px;
+}
+.mobileBottomNav {
+  top: 0;
+  background-color: var(--color-white);
+  overflow: hidden;
+}
+.mobileBottomNavWrapper {
+  top: 755px;
+}
+.fireIcon,
+.iconCalendar {
+  position: absolute;
+  overflow: hidden;
+}
+.iconCalendar {
+  height: 2.61%;
+  width: 5.56%;
+  top: 91%;
+  right: 47.26%;
+  bottom: 6.4%;
+  left: 47.18%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.fireIcon {
+  top: 766px;
+  left: 261px;
+  width: 27px;
+  height: 24px;
+}
+.iconCalendar7,
+.iconHome,
+.iconMap,
+.iconUser {
+  position: absolute;
+  height: 2.88%;
+  width: 5.82%;
+  top: 90.52%;
+  right: 7.26%;
+  bottom: 6.6%;
+  left: 86.92%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.iconCalendar7,
+.iconHome,
+.iconMap {
+  height: 2.37%;
+  width: 6.15%;
+  top: 90.76%;
+  right: 86.67%;
+  bottom: 6.87%;
+  left: 7.18%;
+}
+.iconCalendar7,
+.iconMap {
+  width: 6.67%;
+  right: 66.41%;
+  left: 26.92%;
+}
+.iconCalendar7 {
+  height: 2.61%;
+  width: 5.56%;
+  top: 91%;
+  right: 47.26%;
+  bottom: 6.4%;
+  left: 47.18%;
+  cursor: pointer;
+}
+.fireIcon7,
+.iconHome7,
+.iconMap7,
+.iconUser7 {
+  position: absolute;
+  top: 766px;
+  left: 261px;
+  width: 27px;
+  height: 24px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.iconHome7,
+.iconMap7,
+.iconUser7 {
+  height: 2.88%;
+  width: 5.82%;
+  top: 90.52%;
+  right: 7.26%;
+  bottom: 6.6%;
+  left: 86.92%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.iconHome7,
+.iconMap7 {
+  height: 2.37%;
+  width: 6.15%;
+  top: 90.76%;
+  right: 86.67%;
+  bottom: 6.87%;
+  left: 7.18%;
+}
+.iconMap7 {
+  width: 6.67%;
+  right: 66.41%;
+  left: 26.92%;
+}
+.exchangeEventStreamPageChild {
+  position: absolute;
+  top: 57px;
+  left: 35px;
+  border-radius: var(--br-3xs);
+  width: 327px;
+  height: 297px;
+}
+.itemTitle {
+  margin: 0;
+}
+.description1 {
+  font-weight: 700;
+}
+.itemTitleUsernameContainer {
+  position: absolute;
+  top: 71px;
+  left: 53px;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  width: 292px;
+  height: 64px;
+  font-family: var(--font-inter);
+}
+.exchangeEventStreamPageInner,
+.exchangeEventStreamPageItem {
+  position: absolute;
+  top: 384px;
+  left: 35px;
+  border-radius: var(--br-3xs);
+  width: 147px;
+  height: 163px;
+  cursor: pointer;
+}
+.exchangeEventStreamPageInner {
+  left: 214px;
+}
+.location,
+.seller,
+.titleItemName {
+  position: absolute;
+  top: 488px;
+  left: 225px;
+  font-size: var(--font-size-smi);
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  width: 121px;
+  height: 23px;
+}
+.location,
+.seller {
+  top: 509px;
+  font-size: var(--font-size-3xs);
+  height: 15px;
+}
+.seller {
+  top: 519px;
+}
+.exchangeEventStreamPageChild1,
+.rectangleIcon {
+  position: absolute;
+  top: 563px;
+  left: 35px;
+  border-radius: var(--br-3xs);
+  width: 147px;
+  height: 169px;
+  cursor: pointer;
+}
+.exchangeEventStreamPageChild1 {
+  left: 214px;
+}
+.istockphoto179490710170667aIcon {
+  position: absolute;
+  top: 70px;
+  left: 288px;
+  width: 63px;
+  height: 64px;
+  object-fit: cover;
+}
+.istockphoto179490710170667aIcon1,
+.istockphoto179490710170667aIcon2 {
+  position: absolute;
+  top: 394px;
+  left: 46px;
+  width: 126px;
+  height: 91px;
+  object-fit: cover;
+}
+.istockphoto179490710170667aIcon2 {
+  left: 225px;
+}
+.istockphoto179490710170667aIcon3,
+.istockphoto179490710170667aIcon4 {
+  position: absolute;
+  top: 571px;
+  left: 46px;
+  width: 126px;
+  height: 91px;
+  object-fit: cover;
+}
+.istockphoto179490710170667aIcon4 {
+  left: 225px;
+}
+.location1,
+.titleItemName1 {
+  left: 46px;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.titleItemName1 {
+  position: absolute;
+  top: 488px;
+  font-size: var(--font-size-smi);
+  display: inline-block;
+  width: 121px;
+  height: 23px;
+}
+.location1 {
+  top: 509px;
+  font-size: var(--font-size-3xs);
+  height: 15px;
+}
+.location1,
+.location2,
+.seller1,
+.seller2,
+.titleItemName2 {
+  position: absolute;
+  display: inline-block;
+  width: 121px;
+}
+.seller1 {
+  top: 519px;
+  left: 46px;
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  height: 15px;
+}
+.location2,
+.seller2,
+.titleItemName2 {
+  left: 0;
+}
+.titleItemName2 {
+  top: 0;
+  font-size: var(--font-size-smi);
+  height: 23px;
+}
+.location2,
+.seller2 {
+  top: 21px;
+  height: 15px;
+}
+.seller2 {
+  top: 31px;
+}
+.titleItemNameGroup,
+.titleItemNameParent {
+  position: absolute;
+  top: 670px;
+  left: 46px;
+  width: 121px;
+  height: 46px;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.titleItemNameGroup {
+  top: 673px;
+  left: 225px;
+}
+.exchangeEventStreamPage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-darkseagreen-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  height: 844px;
+  overflow-y: auto;
+  text-align: center;
+  font-size: var(--font-size-2xs);
+  color: var(--color-gray-100);
+  font-family: var(--font-nunito);
+}
