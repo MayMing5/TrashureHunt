@@ -1,0 +1,124 @@
+.loginPageChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fafafa;
+  width: 390px;
+  height: 844px;
+}
+.loginPageItem {
+  position: absolute;
+  top: 526px;
+  left: 56px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-cadetblue-100);
+  width: 273px;
+  height: 93px;
+  cursor: pointer;
+}
+.logIn,
+.loginPageInner {
+  position: absolute;
+  top: 550px;
+  left: 139px;
+}
+.loginPageInner {
+  top: 411px;
+  left: 56px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-cadetblue-100);
+  width: 273px;
+  height: 92px;
+  cursor: pointer;
+}
+.signUp {
+  position: absolute;
+  top: 435px;
+  left: 125px;
+  display: inline-block;
+  width: 138px;
+  height: 56px;
+}
+.ellipseDiv {
+  position: absolute;
+  top: 184.3px;
+  left: 102px;
+  border-radius: 50%;
+  background-color: var(--color-darksalmon);
+  width: 180px;
+  height: 180px;
+  transform: rotate(-0.73deg);
+  transform-origin: 0 0;
+}
+.logoChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkslateblue-100);
+  border: 1px solid #395794;
+  box-sizing: border-box;
+  width: 92.3px;
+  height: 28.4px;
+}
+.logoInner,
+.logoItem,
+.rectangleDiv {
+  position: absolute;
+  box-sizing: border-box;
+  width: 94.1px;
+  transform-origin: 0 0;
+}
+.logoItem {
+  top: 27.7px;
+  left: 30.8px;
+  background-color: var(--color-lightseagreen-200);
+  border: 1px solid #36b399;
+  height: 30.8px;
+  transform: rotate(90.04deg);
+}
+.logoInner,
+.rectangleDiv {
+  top: 28.4px;
+  left: 91.9px;
+  background-color: var(--color-lightseagreen-100);
+  border: 1px solid var(--color-lightseagreen-100);
+  height: 30.7px;
+  transform: rotate(89.75deg);
+}
+.rectangleDiv {
+  top: 0.7px;
+  left: 61.2px;
+  background-color: var(--color-darkslateblue-100);
+  border: 1px solid var(--color-darkslateblue-100);
+  width: 85.3px;
+  transform: rotate(89.66deg);
+}
+.logo,
+.logoChild1 {
+  position: absolute;
+  width: 92.3px;
+}
+.logoChild1 {
+  top: 68.6px;
+  left: 0;
+  background-color: var(--color-lightseagreen-100);
+  border: 1px solid #36b498;
+  box-sizing: border-box;
+  height: 28.4px;
+}
+.logo {
+  top: 210.3px;
+  left: 147px;
+  height: 122.7px;
+}
+.loginPage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 844px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

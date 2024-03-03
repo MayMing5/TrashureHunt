@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,700;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-nunito: Nunito;
+
+  /* font sizes */
+  --font-size-17xl: 36px;
+  --font-size-2xs: 11px;
+  --font-size-lg: 18px;
+  --font-size-11xl: 30px;
+  --font-size-mid: 17px;
+  --font-size-3xs: 10px;
+  --font-size-smi: 13px;
+  --font-size-base: 16px;
+  --font-size-xs: 12px;
+
+  /* Colors */
+  --color-darkseagreen-100: #c0e3ab;
+  --color-darkseagreen-200: #8ec8a5;
+  --color-white: #fff;
+  --color-cadetblue-100: #62ac9f;
+  --color-cadetblue-200: #3e8d97;
+  --color-palegoldenrod: #f9fcb6;
+  --color-gray-100: #898989;
+  --color-black: #000;
+  --color-gainsboro-100: #d9d9d9;
+  --color-gainsboro-200: rgba(217, 217, 217, 0);
+  --color-lightseagreen-100: #37b398;
+  --color-lightseagreen-200: #36b398;
+  --color-darksalmon: #ed927d;
+  --color-darkslateblue-100: #395795;
+  --color-darkslategray: #1f5171;
+
+  /* Gaps */
+  --gap-9xs: 4px;
+  --gap-0: 0px;
+
+  /* Paddings */
+  --padding-5xs: 8px;
+  --padding-base: 16px;
+
+  /* Border radiuses */
+  --br-3xs: 10px;
+  --br-81xl: 100px;
+  --br-8xs: 5px;
+  --br-5xs: 8px;
+  --br-xl: 20px;
+}
